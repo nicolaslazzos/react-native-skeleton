@@ -6,7 +6,7 @@ React Native Skeleton is a react-native library to easily create an loading effe
 
 > Note: This package requires the dependency **@react-native-community/masked-view**.<br/>If your project includes the react-navigation >= 4.x you probably already have it installed and you can SKIP de Step #1
 
-###### Step #1
+#### Step #1
 
 Using yarn:
 
@@ -33,9 +33,7 @@ cd ios
 pod install
 ```
 
-&nbsp;&nbsp;
-
-###### Step #2
+#### Step #2
 
 Using yarn:
 
@@ -110,9 +108,9 @@ const ListItem = () => {
 
 |      Prop       |                  Description                   |  Type  |  Default  |
 | :-------------: | :--------------------------------------------: | :----: | :-------: |
-| backgroundColor |      Determines the color of placeholder       | string | _#E1E9EE_ |
-| highlightColor  | Determines the highlight color of placeholder  | string | _#F2F8FC_ |
-|      speed      | Determines the animation speed in milliseconds | number |   _800_   |
+| backgroundColor |      Determines the color of placeholder       | string | `#E1E9EE` |
+| highlightColor  | Determines the highlight color of placeholder  | string | `#F2F8FC` |
+|      speed      | Determines the animation speed in milliseconds | number |   `800`   |
 
 #### Skeleton
 
