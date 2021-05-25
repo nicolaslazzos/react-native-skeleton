@@ -1,5 +1,11 @@
 ## React Native Skeleton
 
+[![version](https://img.shields.io/github/package-json/v/nicolaslazzos/react-native-skeleton/master?label=npm&style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
+[![npm](https://img.shields.io/npm/l/@nlazzos/react-native-skeleton?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
+[![npm](https://img.shields.io/badge/types-included-blue?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton)
+[![npm](https://img.shields.io/npm/dm/@nlazzos/react-native-skeleton?style=flat-square&color=red)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
+[![npm](https://img.shields.io/github/stars/nicolaslazzos/react-native-skeleton?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
+
 React Native Skeleton is a react-native library to easily create an loading effect.
 
 ### Installation
