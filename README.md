@@ -53,29 +53,44 @@ Using npm:
 npm install @nlazzos/react-native-skeleton --save
 ```
 
+### Example
+
+Check the following example on Android or iOS (doesnt works in web) to see it in action and try changing the default props to see how it works.
+
+[![npm](https://img.shields.io/static/v1?style=flat-square&label=Expo&message=Example&logo=expo)](https://snack.expo.io/@nicolaslazzos/react-native-skeleton-example)
+
 ### Usage
 
 You always need to wrap the skeletons with the `SkeletonContainer` like in the following example.
 
 ```javascript
-import React from "react";
-import { View } from "react-native";
-import { SkeletonContainer, Skeleton } from "@nlazzos/react-native-skeleton";
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { SkeletonContainer, Skeleton } from '@nlazzos/react-native-skeleton';
 
 const App = () => {
   return (
     <SkeletonContainer>
-      <View style={{ flexDirection: "row", alignContent: "center", padding: 16 }}>
-        <Skeleton style={{ height: 70, width: 70, borderRadius: 6 }} />
-        <View style={{ flex: 1, justifyContent: "center", marginLeft: 16 }}>
-          <Skeleton style={{ height: 16, width: "50%", borderRadius: 6, marginBottom: 10 }} />
-          <Skeleton style={{ height: 16, width: "30%", borderRadius: 6, marginBottom: 10 }} />
-          <Skeleton style={{ height: 16, width: "70%", borderRadius: 6 }} />
+      <View style={styles.container}>
+        <Skeleton style={styles.avatar} />
+        <View style={styles.textContainer}>
+          <Skeleton style={styles.title} />
+          <Skeleton style={styles.subtitle} />
         </View>
+        <Skeleton style={styles.icon} />
       </View>
     </SkeletonContainer>
   );
 };
+
+const styles = StyleSheet.create({
+  container: { flexDirection: 'row', alignItems: 'center', marginBottom: 16 },
+  avatar: { height: 40, width: 40, borderRadius: 0 },
+  textContainer: { flex: 1, marginLeft: 16 },
+  title: { width: '90%', height: 14, borderRadius: 7, marginBottom: 5 },
+  subtitle: { width: '70%', height: 14, borderRadius: 7 },
+  icon: { height: 16, width: 16, borderRadius: 4 },
+});
 ```
 
 Also you can do things like this.
@@ -90,22 +105,32 @@ const App = () => {
     <SkeletonContainer>
       <ListItem />
       <ListItem />
+      <ListItem />
     </SkeletonContainer>
   );
 };
 
 const ListItem = () => {
   return (
-    <View style={{ flexDirection: "row", alignContent: "center", padding: 16 }}>
-      <Skeleton style={{ height: 70, width: 70, borderRadius: 6 }} />
-      <View style={{ flex: 1, justifyContent: "center", marginLeft: 16 }}>
-        <Skeleton style={{ height: 16, width: "50%", borderRadius: 6, marginBottom: 10 }} />
-        <Skeleton style={{ height: 16, width: "30%", borderRadius: 6, marginBottom: 10 }} />
-        <Skeleton style={{ height: 16, width: "70%", borderRadius: 6 }} />
+    <View style={styles.container}>
+      <Skeleton style={styles.avatar} />
+      <View style={styles.textContainer}>
+        <Skeleton style={styles.title} />
+        <Skeleton style={styles.subtitle} />
       </View>
+      <Skeleton style={styles.icon} />
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: { flexDirection: 'row', alignItems: 'center', marginBottom: 16 },
+  avatar: { height: 40, width: 40, borderRadius: 0 },
+  textContainer: { flex: 1, marginLeft: 16 },
+  title: { width: '90%', height: 14, borderRadius: 7, marginBottom: 5 },
+  subtitle: { width: '70%', height: 14, borderRadius: 7 },
+  icon: { height: 16, width: 16, borderRadius: 4 },
+});
 ```
 
 ### Properties
