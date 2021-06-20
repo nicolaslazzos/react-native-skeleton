@@ -55,7 +55,7 @@ pod install
 
 ### Example
 
-Check the following example on Android or iOS (doesnt works in web) to see it in action and try changing the default props to see how it works.
+Check the following example to see it in action and try changing the default props to see how it works.
 
 [![npm](https://img.shields.io/static/v1?style=flat-square&label=Expo&message=Example&logo=expo)](https://snack.expo.io/@nicolaslazzos/react-native-skeleton-example)
 
