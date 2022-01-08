@@ -1,6 +1,6 @@
 {
   "name": "@nlazzos/react-native-skeleton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A skeleton component for react-native and react-native-web.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
