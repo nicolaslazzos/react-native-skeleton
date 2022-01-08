@@ -26,24 +26,24 @@ npm install @nlazzos/react-native-skeleton --save
 
 #### Step #2 (Mobile Only)
 
-> Note: Only if you are using this package on `react-native` it requires the dependency **@react-native-community/masked-view** for the `wave` animation (only available on mobile).<br/>If your project includes the react-navigation >= 4.x you probably already have it installed and you can SKIP this step.
+> Note: Only if you are using this package on `react-native` it requires the dependency **@react-native-masked-view/masked-view** for the `wave` animation (only available on mobile).<br/>If your project includes the react-navigation >= 4.x you probably already have it installed and you can SKIP this step.
 
 Using yarn:
 
 ```bash
-yarn add @react-native-community/masked-view
+yarn add @react-native-masked-view/masked-view
 ```
 
 Using npm:
 
 ```bash
-npm install @react-native-community/masked-view --save
+npm install @react-native-masked-view/masked-view --save
 ```
 
 If you are running a **react-native** version below 0.60:
 
 ```bash
-react-native link @react-native-community/masked-view
+react-native link @react-native-masked-view/masked-view
 ```
 
 Otherwise:
