@@ -1,10 +1,10 @@
 ## React Native Skeleton
 
-[![version](https://img.shields.io/github/package-json/v/nicolaslazzos/react-native-skeleton/master?label=npm&style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
-[![npm](https://img.shields.io/npm/l/@nlazzos/react-native-skeleton?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
-[![npm](https://img.shields.io/badge/types-included-blue?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton)
-[![npm](https://img.shields.io/npm/dm/@nlazzos/react-native-skeleton?style=flat-square&color=red)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
-[![npm](https://img.shields.io/github/stars/nicolaslazzos/react-native-skeleton?style=flat-square)](https://www.npmjs.com/package/@nlazzos/react-native-skeleton) 
+[![version](https://img.shields.io/github/package-json/v/nicolaslazzos/react-native-skeleton/master?label=npm&style=flat-square)](https://www.npmjs.com/package/react-native-skeleton-component) 
+[![npm](https://img.shields.io/npm/l/react-native-skeleton-component?style=flat-square)](https://www.npmjs.com/package/react-native-skeleton-component) 
+[![npm](https://img.shields.io/badge/types-included-blue?style=flat-square)](https://www.npmjs.com/package/react-native-skeleton-component)
+[![npm](https://img.shields.io/npm/dm/react-native-skeleton-component?style=flat-square&color=red)](https://www.npmjs.com/package/react-native-skeleton-component) 
+[![npm](https://img.shields.io/github/stars/nicolaslazzos/react-native-skeleton?style=flat-square)](https://www.npmjs.com/package/react-native-skeleton-component) 
 
 React Native Skeleton is a react-native and react-native-web library to easily create a loading effect.
 
@@ -15,13 +15,13 @@ React Native Skeleton is a react-native and react-native-web library to easily c
 Using yarn:
 
 ```bash
-yarn add @nlazzos/react-native-skeleton
+yarn add react-native-skeleton-component
 ```
 
 Using npm:
 
 ```bash
-npm install @nlazzos/react-native-skeleton --save
+npm install react-native-skeleton-component --save
 ```
 
 #### Step #2 (Mobile Only)
@@ -57,7 +57,7 @@ pod install
 
 Check the following example to see it in action and try changing the default props to see how it works.
 
-[![npm](https://img.shields.io/static/v1?style=flat-square&label=Expo&message=Example&logo=expo)](https://snack.expo.io/@nicolaslazzos/react-native-skeleton-example)
+[![npm](https://img.shields.io/static/v1?style=flat-square&label=Expo&message=Example&logo=expo)](https://snack.expo.io/@nicolaslazzos/react-native-skeleton-component-example)
 
 ### Usage
 
@@ -66,7 +66,7 @@ You always need to wrap the skeletons with the `SkeletonContainer` like in the f
 ```javascript
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { SkeletonContainer, Skeleton } from '@nlazzos/react-native-skeleton';
+import { SkeletonContainer, Skeleton } from 'react-native-skeleton-component';
 
 const App = () => {
   return (
@@ -98,7 +98,7 @@ Also you can do things like this.
 ```javascript
 import React from "react";
 import { View } from "react-native";
-import { SkeletonContainer, Skeleton } from "@nlazzos/react-native-skeleton";
+import { SkeletonContainer, Skeleton } from "react-native-skeleton-component";
 
 const App = () => {
   return (

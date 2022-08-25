@@ -1,6 +1,6 @@
 {
-  "name": "@nlazzos/react-native-skeleton",
-  "version": "1.0.3",
+  "name": "react-native-skeleton-component",
+  "version": "1.0.0",
   "description": "A skeleton component for react-native and react-native-web.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -12,6 +12,7 @@
     "react-native",
     "react-native-web",
     "react-native-skeleton",
+    "react-native-skeleton-component",
     "skeleton",
     "shimmer",
     "loading",
